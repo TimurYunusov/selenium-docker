@@ -1,0 +1,11 @@
+{
+  "firstName": "Michael3",
+  "lastName": "Jackson3",
+  "email": "mj3@gmail.com",
+  "password": "ukraine",
+  "street": "123 Main Street",
+  "city": "Chicago3",
+  "zip": "60605",
+  "passengersCount": "3",
+  "expectedPrice": "$1753 USD"
+}

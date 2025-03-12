@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" verbose="1" parallel="none">
+    <test name="TestName">
+
+    </test>
+</suite>
