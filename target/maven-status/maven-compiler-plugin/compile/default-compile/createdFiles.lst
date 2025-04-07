@@ -1,8 +1,0 @@
-com\timsguru\AbstractPage.class
-com\timsguru\flightreservation\RegistrationPage.class
-com\timsguru\flightreservation\FlightSearchPage.class
-com\timsguru\vendorPortal\DashboardPage.class
-com\timsguru\vendorPortal\LoginPage.class
-com\timsguru\flightreservation\FightsConfirmationPage.class
-com\timsguru\flightreservation\FlightSelectionPage.class
-com\timsguru\flightreservation\RegistrationConformationPage.class

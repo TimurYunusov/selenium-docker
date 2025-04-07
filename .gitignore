@@ -1,0 +1,23 @@
+# Ignore Maven target directory
+/target/
+
+# Logs
+*.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Reports
+/test-output/
+reports/
+output/
+
+# Environment files
+.env
