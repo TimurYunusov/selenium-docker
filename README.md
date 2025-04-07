@@ -31,7 +31,6 @@ This is a Test Automation Framework built using Java, Selenium WebDriver, and Te
 
 
 ## How to Run Tests
-
 ### Run all tests locally
 
 ```bash
