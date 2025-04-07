@@ -1,3 +1,5 @@
+![CI](https://github.com/TimurYunusov/selenium-docker/actions/workflows/ci.yml/badge.svg)
+
 # Selenium Docker Test Automation Framework
 
 ## Overview
