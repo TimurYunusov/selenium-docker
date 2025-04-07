@@ -17,11 +17,16 @@ This is a Test Automation Framework built using Java, Selenium WebDriver, and Te
 
 ## Project Structure
 
-. ├── src │ ├── main │ │ └── java # Page objects, utilities │ └── test │ └── java # Test classes ├── target # Compiled test outputs and reports ├── pom.xml # Maven project file ├── .gitignore └── README.md
+├── src │ 
+        ├── main │
+        │        └── java # Page objects, utilities │
+        └── test │ 
+                 └── java # Test classes 
+├── target # Compiled test outputs and reports
+├── pom.xml # Maven project file
+├── .gitignore 
+└── README.md
 
-shell
-Copy
-Edit
 
 ## How to Run Tests
 
@@ -29,32 +34,24 @@ Edit
 
 ```bash
 mvn clean test
-Run specific test suite
-bash
-Copy
-Edit
+
+#### Run specific test suite
 mvn clean test -DsuiteXmlFile=src/test/resources/test-suites/flight-reservation.xml
-This command runs the tests defined in the specified TestNG suite XML file.
-
-Reports
+## Reports
 After test execution, open the following report in a browser:
-
-bash
-Copy
-Edit
 target/test-output/index.html
-Customization
+## Customization
 To change browser, modify the system property in pom.xml under maven-surefire-plugin.
 
-Environment-specific configs (like Selenium Grid toggle) are also set in the pom.xml.
+##Environment-specific configs (like Selenium Grid toggle) are also set in the pom.xml.
 
-Future Enhancements
+##Future Enhancements
 Add Docker support for Selenium Grid execution.
 
 Integrate Allure or ExtentReports for richer reporting.
 
 Add support for parallel execution and environment-based test runs.
 
-Author
+###Author
 Timur Yunusov
 GitHub: https://github.com/TimurYunusov
